@@ -1,0 +1,60 @@
+>>> printCompilerInfo(): Info: this executable was compiled in '/Users/simoneragoni/aliceO2/STARlight-trunk' on Apr  2 2024 19:39:35 by compiler Apple LLVM 15.0.0 (clang-1500.3.9.4)
+>>> printSvnVersion(): Info: subversion repository revision is unknown.
+>>> inputParameters::configureFromFile(): Info: successfully read input parameters from 'slight.in'
+Rapidity beam 1: 8.59614, rapidity beam 2: -8.59614, rapidity CMS system: 0, beam gamma in CMS: 2705.37
+>>> inputParameters::init(): Info: using the following starlight parameters:
+    base file name  ...................... 'slight'
+    beam 1 atomic number ................... 82
+    beam 1 atomic mass number .............. 208
+    beam 2 atomic number ................... 82
+    beam 2 atomic mass number .............. 208
+    Lorentz gamma of beams in CM frame ..... 2705.37
+    mass W of produced hadronic system ..... 3.09645 < W < 3.09738 GeV/c^2
+    # of W bins ............................ 20
+    maximum absolute value for rapidity .... 1.1
+    # of rapidity bins ..................... 220
+    cut in pT............................... no
+    cut in eta.............................. yes
+        minumum eta......................... -1
+        maximum eta......................... 1
+    production mode ........................ 2
+    number of events to generate ........... 4000
+    PDG ID of produced particle ............ 443011
+    seed for random generator .............. 5574533
+    breakup mode for beam particles ........ 5
+    interference enabled ................... no
+    coherent scattering off nucleus ........ yes
+    Quantum Glauber parameter...............  0
+    Impulse VM parameter....................  0
+
+#########################################
+ Initialising Starlight version: trunk...
+#########################################
+
+>>> beamBeamSystem::generateBreakupProbabilities(): Info: Requiring no hadronic interactions. 
+>>> starlight::luminosityTableIsValid(): Info: using random seed = 5574533
+>>> starlight::init(): Info: creating luminosity table for coherent photon-Pomeron channel
+Creating Luminosity Tables.
+Calculating photon flux from Emin = 1.000000e-05 GeV to Emax = 4.835521e+02 GeV (CM frame) for source with Z =  82 
+Luminosity Tables created.
+Reading in luminosity tables. Gammaanarrowvm()
+Creating and calculating crosssection. Gammaanarrowvm()
+ Using Narrow Resonance ...
+ gamma+nucleon threshold: 1.516958e-03 GeV 
+
+ Total cross section: 13.800 mb.
+
+>>> starlightStandalone::run(): Info: generating events:
+       0 of 4000
+     400 of 4000
+     800 of 4000
+    1200 of 4000
+    1600 of 4000
+    2000 of 4000
+    2400 of 4000
+    2800 of 4000
+    3200 of 4000
+    3600 of    160000 of 200000
+    180000 of 200000
+>>> starlightStandalone::run(): Info: number of attempts = 602434, number of accepted events = 200000
+ The cross section of the generated sample is 273.549 microbarn.

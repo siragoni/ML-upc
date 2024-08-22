@@ -1,0 +1,29 @@
+baseFileName = slight	#suite of output files will be saved with this base name
+BEAM_1_Z = 82    #Z of projectile
+BEAM_1_A = 208   #A of projectile
+BEAM_2_Z = 82   #Z of target
+BEAM_2_A = 208   #A of target
+BEAM_1_GAMMA = 2705.36507763778017872364 #Gamma of the colliding ion 1
+BEAM_2_GAMMA = 2705.36507763778017872364 #Gamma of the colliding ion 2
+W_MIN = 1.0
+W_MAX = 6.0
+W_N_BINS = 400
+RAP_MAX = 1.1    #max y
+RAP_N_BINS = 220    #Bins i y
+CUT_PT = 0 #Cut in pT? 0 = (no, 1 = yes)
+PT_MIN = 1.0 #Minimum pT in GeV
+PT_MAX = 3.0 #Maximum pT in GeV
+CUT_ETA = 1 #Cut in pseudorapidity? (0 = no, 1 = yes)
+ETA_MIN = -1 #Minimum pseudorapidity
+ETA_MAX = 1 #Maximum pseudorapidity
+PROD_MODE = 1
+N_EVENTS = 100000
+PROD_PID = 11
+RND_SEED = 5574533 #Random number seed
+BREAKUP_MODE = 5     #Controls the nuclear breakup; a 5 here makes no requirement on the breakup of the ions
+INTERFERENCE = 0     #Interference (0 = off, 1 = on)
+IF_STRENGTH = 1.    #% of intefernce (0.0 - 0.1)
+INT_PT_MAX = 0.24  #Maximum pt considered, when interference is turned on
+INT_PT_N_BINS =120   #Number of pt bins when interference is turned on
+XSEC_METHOD = 1 # Set to 0 to use old method for calculating gamma-gamma luminosity
+PYTHIA_FULL_EVENTRECORD = 0 # Write full pythia information to output (vertex, parents, daughter etc).

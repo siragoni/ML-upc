@@ -1,0 +1,25 @@
+>>> bool inputParameters::configureFromFile(const std::string &) [/Users/simoneragoni/aliceO2/STARlight-trunk/src/inputParameters.cpp:340]: 
+Warning: starlight parameters:
+    base file name  ...................... 'slight'
+    beam 1 atomic number ................... 82
+    beam 1 atomic mass number .............. 208
+    beam 2 atomic number ................... 82
+    beam 2 atomic mass number .............. 208
+    Lorentz gamma of beams in CM frame ..... 0
+    mass W of produced hadronic system ..... 1 < W < 6 GeV/c^2
+    # of W bins ............................ 400
+    maximum absolute value for rapidity .... 1.1
+    # of rapidity bins ..................... 220
+    cut in pT............................... no
+    cut in eta.............................. yes
+        minumum eta......................... -1
+        maximum eta......................... 1
+    production mode ........................ 1
+    number of events to generate ........... 100000
+    PDG ID of produced particle ............ 11
+    seed for random generator .............. 5574533
+    breakup mode for beam particles ........ 5
+    interference enabled ................... no
+    Quantum Glauber parameter...............  0
+    Impulse VM parameter....................  0
+
