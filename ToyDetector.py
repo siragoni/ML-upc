@@ -253,7 +253,9 @@ class ToyDetector:
         ax.set_ylim([-0.25, 0.25])
         ax.set_zlim([-0.25, 0.25])
 
+        plt.savefig(f"event_{event_number}.pdf", format="pdf", bbox_inches="tight")
         plt.show()
+
 
 # Example usage (uncomment these lines to run):
 # detector = ToyDetector()
